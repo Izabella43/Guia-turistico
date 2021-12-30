@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+fieldset#usuario {
+	padding: 0px;
+	text-align: center;
+	margin:20px;
+	
+}
+
+div#image {
+	text-align: center;
+}
