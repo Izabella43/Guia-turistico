@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="_css/folha.css" />
+<link rel="stylesheet" href="_css/contato.css" />
+</head>
+
+<body>
+    <div id="container"></div>
+
+    <div id="cabecalho" />
+    <header id="Interface">
+
+
+        <hgroup>
+            <h1> Entre em Contato </h1>
+        </hgroup>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Ouropreto.html">Ouro Preto </a></li>
+                <li><a href="carrancas.html">Carrancas </a></li>
+                <li><a href="capitolio.html">Capitólio </a></li>
+                <li><a href="brumadinho.html">Brumadinho </a></li>
+                <li><a href="serra.html">Serra da Canastra </a></li>
+                <li><a href="contato.html">Contato </a></li>
+            </ul>
+        </nav>
+    </header>
+    <p> Para entrarmos em contato, preecha as informações abaixo: </p>
+    <form method="post" id="fContato" action="mailto:izabellaamaral43@gmail.com" />
+    <fieldset id="usuario">
+        <legend>Identificação do Usuário</legend>
+        <p><label for="cNome"> Nome: </label>
+            <input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" /></p>
+        <p><label for="cEmail"> E-mail:</label>
+            <input type="email" name="tMail" id="Cmail" size="20" maxlength="40" /></p>
+        <p><label for="cNasc"> Data para passeio:</label>
+            <input type="date" name="tData" id="cData" /></p>
+    </fieldset>
+    <div id="image">
+        <input type="image" name="tEnviar" src="_imagens/enviar.png" />
